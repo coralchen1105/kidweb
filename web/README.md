@@ -1,3 +1,8 @@
+this.setState({
+headerclassName: "jnr**header header--2 clearfix",
+NavBgclassName: "mainmenu**wrapper bg--white sticky\_\_header"
+});
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
