@@ -1,30 +1,23 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Narbar extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      headerclassName: "jnr__header header--one clearfix",
-      NavBgclassName:
-        "mainmenu__wrapper bg__cat--1 poss-relative header_top_line sticky__header"
-    };
-  }
-
-  componentDidMount() {
-    console.log(this.props.location.pathname);
-    if (this.props.location.pathname === "/") {
-      console.log(this.className);
-    } else {
-      this.setState({
-        headerclassName: "jnr__header header--2 clearfix",
-        NavBgclassName: "mainmenu__wrapper bg--white sticky__header"
-      });
-    }
   }
 
   render() {
+    console.log(this.props.location.pathname);
+    var headerclassName = "jnr__header header--one clearfix";
+    var NavBgclassName =
+      "mainmenu__wrapper bg__cat--1 poss-relative header_top_line sticky__header";
+
+    if (this.props.location.pathname !== "/") {
+      var headerclassName = "jnr__header header--2 clearfix";
+      var NavBgclassName = "mainmenu__wrapper bg--white sticky__header";
+    }
     return (
-      <header id="header" class={this.state.headerclassName}>
+      <header id="header" className={headerclassName}>
         <div className="junior__header__top bg-image--5">
           <div className="container">
             <div className="row">
@@ -61,7 +54,7 @@ class Narbar extends Component {
             </div>
           </div>
         </div>
-        <div className={this.state.NavBgclassName}>
+        <div className={NavBgclassName}>
           <div className="container">
             <div className="row d-none d-lg-flex">
               <div className="col-sm-4 col-md-6 col-lg-2 order-1 order-lg-1">
@@ -72,25 +65,22 @@ class Narbar extends Component {
                   <nav className="mainmenu__nav">
                     <ul className="mainmenu">
                       <li className="drop">
-                        <a href="index.html">Home</a>
+                        <Link to="/">Home</Link>
                       </li>
                       <li className="drop">
-                        <a href="className-grid.html">className</a>
+                        <Link to="/gallery">Gallery</Link>
                       </li>
                       <li className="drop">
-                        <a href="event-grid.html">Event</a>
+                        <Link to="/learning">Learning</Link>
                       </li>
                       <li className="drop">
-                        <a href="#">Pages</a>
+                        <Link to="/travelling">Travelling</Link>
                       </li>
                       <li className="drop">
-                        <a href="shop-grid.html">Shop</a>
+                        <Link to="/dailylife">Daily Life</Link>
                       </li>
                       <li className="drop">
-                        <a href="blog-grid.html">Blog</a>
-                      </li>
-                      <li>
-                        <a href="contact.html">Contact</a>
+                        <Link to="/contactus">Contact Us</Link>
                       </li>
                     </ul>
                   </nav>

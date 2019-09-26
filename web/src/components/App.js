@@ -7,6 +7,7 @@ import DailyList from "./dailyLife/DailyList";
 import LearningList from "./learning/LearningList";
 import TravellingList from "./travelling/TravellingList";
 import ContactUs from "./ContactUs";
+import Footer from "./common/Footer/Footer";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path="/travelling" component={TravellingList} />
           <Route path="/contactus" component={ContactUs} />
         </Switch>
+        <Footer />
       </div>
     );
   }
