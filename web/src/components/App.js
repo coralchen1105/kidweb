@@ -12,7 +12,7 @@ import Footer from "./common/Footer/Footer";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div id="wrapper" className="wrapper">
         <Navbar location={this.props.location} />
         <Switch>
           <Route exact path="/" component={HomePage} />
