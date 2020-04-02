@@ -13,8 +13,8 @@ class Narbar extends Component {
       "mainmenu__wrapper bg__cat--1 poss-relative header_top_line sticky__header";
 
     if (this.props.location.pathname !== "/") {
-      var headerclassName = "jnr__header header--2 clearfix";
-      var NavBgclassName = "mainmenu__wrapper bg--white sticky__header";
+      headerclassName = "jnr__header header--2 clearfix";
+      NavBgclassName = "mainmenu__wrapper bg--white sticky__header";
     }
     return (
       <header id="header" className={headerclassName}>
