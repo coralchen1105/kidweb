@@ -1,35 +1,11 @@
 import React, { Component } from "react";
+import TopBanner from "../common/TopBanner";
 
 class GalleryList extends Component {
   render() {
     return (
       <div>
-        <div class="ht__bradcaump__area">
-          <div class="ht__bradcaump__container">
-            <img src="images/bg-png/6.png" alt="bradcaump images" />
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="bradcaump__inner text-center">
-                    <h2 class="bradcaump-title">Gallery-01</h2>
-                    <nav class="bradcaump-inner">
-                      <a class="breadcrumb-item" href="index.html">
-                        Home
-                      </a>
-                      <span class="brd-separetor">
-                        <img
-                          src="images/icons/brad.png"
-                          alt="separator images"
-                        />
-                      </span>
-                      <span class="breadcrumb-item active">Gallery</span>
-                    </nav>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <TopBanner />
 
         <div class="junior__gallery__area gallery-page-one gallery__masonry__activation gallery--3 bg-image--25 section-padding--lg">
           <div class="container">
