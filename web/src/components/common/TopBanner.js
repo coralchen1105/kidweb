@@ -1,6 +1,6 @@
 import React from "react";
 
-const TopBanner = () => {
+const TopBanner = (props) => {
   return (
     <div class="ht__bradcaump__area">
       <div class="ht__bradcaump__container">

@@ -6,7 +6,7 @@ const SectionActivities = () => {
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <div class="service bg--white border__color wow fadeInUp">
+            <div class="service bg--white border__color wow">
               <div class="service__icon">
                 <img src="images/shape/sm-icon/1.png" alt="icon images" />
               </div>
@@ -19,7 +19,7 @@ const SectionActivities = () => {
                   do eiusmod.
                 </p>
                 <div class="service__btn">
-                  <a class="dcare__btn--2" href="#">
+                  <a class="dcare__btn--2" href="/gallery">
                     Read More
                   </a>
                 </div>
@@ -29,7 +29,7 @@ const SectionActivities = () => {
 
           <div class="col-lg-3 col-md-6 col-sm-6 col-12 xs-mt-60">
             <div
-              class="service bg--white border__color border__color--2 wow fadeInUp"
+              class="service bg--white border__color border__color--2 wow"
               data-wow-delay="0.2s"
             >
               <div class="service__icon">
@@ -44,7 +44,7 @@ const SectionActivities = () => {
                   do eiusmod.
                 </p>
                 <div class="service__btn">
-                  <a class="dcare__btn--2" href="#">
+                  <a class="dcare__btn--2" href="/travelling">
                     Read More
                   </a>
                 </div>
@@ -54,7 +54,7 @@ const SectionActivities = () => {
 
           <div class="col-lg-3 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
             <div
-              class="service bg--white border__color border__color--3 wow fadeInUp"
+              class="service bg--white border__color border__color--3 wow"
               data-wow-delay="0.45s"
             >
               <div class="service__icon">
@@ -69,7 +69,7 @@ const SectionActivities = () => {
                   do eiusmod.
                 </p>
                 <div class="service__btn">
-                  <a class="dcare__btn--2" href="#">
+                  <a class="dcare__btn--2" href="/learning">
                     Read More
                   </a>
                 </div>
@@ -79,7 +79,7 @@ const SectionActivities = () => {
 
           <div class="col-lg-3 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
             <div
-              class="service bg--white border__color border__color--4 wow fadeInUp"
+              class="service bg--white border__color border__color--4 wow"
               data-wow-delay="0.65s"
             >
               <div class="service__icon">
@@ -94,7 +94,7 @@ const SectionActivities = () => {
                   do eiusmod.
                 </p>
                 <div class="service__btn">
-                  <a class="dcare__btn--2" href="#">
+                  <a class="dcare__btn--2" href="/dailylife">
                     Read More
                   </a>
                 </div>

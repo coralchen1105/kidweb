@@ -1,7 +1,6 @@
 import React from "react";
-import $ from "jquery";
 
-const HeroShot = props => {
+const HeroShot = (props) => {
   return (
     <div class="slider__area bg-pngimage--1  d-flex fullscreen justify-content-start align-items-center">
       <div class="container">

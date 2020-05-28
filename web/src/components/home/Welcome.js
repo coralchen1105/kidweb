@@ -16,36 +16,6 @@ const Welcome = () => {
             </div>
           </div>
         </div>
-        <div class="row jn__welcome__wrapper align-items-center">
-          <div class="col-md-12 col-lg-6 col-sm-12">
-            <div class="welcome__juniro__inner">
-              <h3>Welcome to Our School</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisic ming elit, sed
-                do ei Excepteur sint occaecat cupida proident, sunt in culpa qui
-                dese runt mol anim id est lai aborum. Sed ut perspiciatis unde
-                omnis iste natus error svolupt accu doloremque laudantium, totam
-                rem.
-              </p>
-              <div class="wel__btn">
-                <a class="dcare__btn" href="about-us.html">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-12 col-lg-6 col-sm-12 md-mt-40 sm-mt-40">
-            <div class="jnr__Welcome__thumb">
-              <img src="images/wel-come/1.png" alt="images" />
-              <a
-                class="play__btn"
-                href="https://www.youtube.com/watch?v=MCJEkZtqlBk"
-              >
-                <i class="fa fa-play"></i>
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

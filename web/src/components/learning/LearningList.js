@@ -3,9 +3,11 @@ import TopBanner from "../common/TopBanner";
 
 class LearningList extends Component {
   render() {
+    const pathname = this.props.location.pathname;
+    console.log(this.props.location.pathname);
     return (
       <div>
-        <TopBanner />
+        <TopBanner pathVariable={pathname} />
         <section class="dcare__courses__area section-padding--lg bg--white">
           <div class="container">
             <div class="row class__list__page">
