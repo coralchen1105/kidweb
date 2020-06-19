@@ -1,23 +1,24 @@
 import React from "react";
 
 const TopBanner = (props) => {
+  console.log(props.pathVariable);
   return (
-    <div class="ht__bradcaump__area">
-      <div class="ht__bradcaump__container">
+    <div className="ht__bradcaump__area">
+      <div className="ht__bradcaump__container">
         <img src="images/bg-png/6.png" alt="bradcaump images" />
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="bradcaump__inner text-center">
-                <h2 class="bradcaump-title">class list</h2>
-                <nav class="bradcaump-inner">
-                  <a class="breadcrumb-item" href="index.html">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="bradcaump__inner text-center">
+                <h2 className="bradcaump-title"> {props.pathVariable} list</h2>
+                <nav className="bradcaump-inner">
+                  <a className="breadcrumb-item" href="index.html">
                     Home
                   </a>
-                  <span class="brd-separetor">
-                    <img src="images/icons/brad.png" alt="separator images" />
+
+                  <span className="breadcrumb-item active">
+                    {props.pathVariable} list view
                   </span>
-                  <span class="breadcrumb-item active">class list view</span>
                 </nav>
               </div>
             </div>
